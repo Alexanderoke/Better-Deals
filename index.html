@@ -6,16 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
+  <script src="js/main.js"></script>
 </head>
 <body>
   
   <nav>
     <h1>BETTER DEALS </h1>
     <div class="Nav">
-      <a href=""><button>AboutUs</button></a>
-      <br>     
-        <a href=""><button >Contact</button></a>
+      
+       <a href="#"><button>AboutUs</button></a>
+       <br>     
+       <a href="#"><button >Contact</button></a>
+       <a href="#"><button >Feedback</button>
         </div>
+        <br>
+      
       </nav>
       
   
@@ -27,22 +32,49 @@
 
 
 
-<div class="con1">
- <form name="userform" onclick="return validateForm()">
+  <div class="wrapper">
 
- <label for="Email"></label>
-  <input type="Email" class="Type" id="Email" name="email" placeholder="Email" required> 
-  <br>
-  <label for="Password"></label>
-  <input type="password" class="Type" id="Password" name="password" placeholder="Password" required>
-  <br>
-  <a href=""><button> Login</button></a>
-  <br>
-  <a href=""><p>New  user?</p></a>
-  
-  
-</form>
-</div>
-  <script src="./js/main.js"></script>
+    <form action="#">
+      <div class="field email">
+        <div class="input-area">
+          <input type="text" id="Username"placeholder="Username">
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div><br>
+      </div>
+      <div class="field password">
+        <div class="input-area">
+          <input type="password" id="password"placeholder="Password">
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+      </div><br>
+    
+      <!-- <input type="submit" value="Login"> -->
+      <a href="content.html"><button onclick="runLog()">Submit</button></a>
+    </form>
+     <br>
+   <a href=""><p>New user?</p></a>
+
+  </div>
+ 
+  <!-- <script src="js/main.js"></script> -->
+  <footer>
+    <div class="contact">
+        <p>For more information about us please do not hesitate to contact us below;</p>
+        <address>
+            Ngong road Ngong Lane Plaza
+             P.O BOX 250 NAIROBI
+            Phone: 0743-689-432/0712-200-876
+            Email: <strong>BETTER DEALS@gmail.com</strong>
+        
+        </address>
+        <div class="span">
+        <span>Copyright@2021</span>
+        </div>
+
+    </div>
+</footer>
+
 </body>
 </html>

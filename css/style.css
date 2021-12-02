@@ -1,48 +1,65 @@
-h1{
-text-align: center;
-color: brown;
-display: flex;
-justify-content:center;
-}
 
-body{
-    background-color:whitesmoke;
-    background-image:url("https://lh3.googleusercontent.com/proxy/WtBaqNelmcUpAlnP08mJ1X-dDD4QjMcVnyNVUPSYV909fXhW0fEPRzsu5HsI1Q7sfPgj9xFLlHSXX5VPgZLXUhKWGtKH9MLQHF6NWkFzJp6ED6hrvQlLofYBU3xtF2yc_Bf5myk") ;
-    font-family:Arial, Helvetica, sans-serif;
+h1{
+    text-align: center;
+    color: brown;
+    display: flex;
+    justify-content:center;
+    }
     
-}
-.logo{
+    body{
+    background-color:whitesmoke;
+    background-image: url(../background.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    .logo{
     display: flex;
     justify-content: center;
-}
-form{
+    }
+    form{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding-top:70px; ;
-}
-input{ 
-padding:0.6rem;
-border-radius: 5px;
-border: none;
-}
-button{
-    padding: 0.5rem  0.8rem;
+    }
+    input{ 
+    padding:0.6rem;
+    border-radius: 5px;
     border: none;
-}
-button:hover{
+    }
+    button{
+    padding: 0.5rem 0.8rem;
+    border: none;
+    }
+    button:hover{
     background-color: #000;
     cursor: pointer;
     outline: none;
     color: #fff;
-}
-.Nav{
+    }
+    .Nav{
     background-color:rgb(228, 228, 238) ;
     display: flex;
     justify-content: right;
-
-
-
-
-}
+    }
+    footer{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color:rgb(247, 233, 233) ;
+    }
+    #demo{
+    display: none;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        cursor: pointer; 
+    }
+    input{
+        background-color: #000;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+    }
+   
