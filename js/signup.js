@@ -26,6 +26,7 @@ function CheckEmail(input) {
     ShowSuccess(input);
   }else {
     ShowError(input, "Email is not valid");
+    
   }
 }
 function CheckRequired(inputErr) {
@@ -52,9 +53,9 @@ function CheckLenght(input, min, max) {
 function CheckPasswordsMatch(input1,input2) {
   if (input1.value !== input2.value) {
     ShowError(input2, "Password do not match");
+    alert("password do not match ")
   }
 }
-
 function getFieldName(input) {
   return input.id.charAt(0).toUpperCase() + input.id.slice(1)
 }
@@ -63,7 +64,7 @@ form.addEventListener('submit', function(e){
   e.preventDefault();
 
   CheckRequired([username, email, password, password2 ]);
-  CheckLenght(username, 3, 15);
+  CheckLenght(username, 3, 18);
   CheckLenght(password, 8, 25);
   CheckEmail(email);
   CheckPasswordsMatch(password, password2);
