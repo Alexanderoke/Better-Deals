@@ -37,14 +37,11 @@ function search(){
 
   console.log(sortedArray)
 
-  // console.log(cheapestComp);
+ 
 let bestDeal = sortedArray[0];
 console.log(bestDeal);
-// bestDeal.forEach((element) => {
-//   console.log(element.shop)
-// });
-// let sth = bestDeal.findIndex(Object.is.bind(null, undefined))
-alert("The cheapest computer is "+"in"+" "+"shop"+" " + bestDeal.shop)
+
+
 alert(`The cheapest computer is in shop ${bestDeal.shop}`)
 
 $("#details").append(`
@@ -70,7 +67,6 @@ $("#details").append(`
 `)
 
 
-// document.getElementById("cheapest").innerHTML = bestDeal.price;
-// document.getElementById("shop").innerHTML = bestDeal.shop;
+
 };
 
