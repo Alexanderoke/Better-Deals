@@ -36,7 +36,7 @@ function runLog(){
    for(i=0; i<objPeople.length; i++){
        if(username == objPeople[i].username && password == objPeople[i].password)
        {
-        //    window.open("portal.html");
+        window.location.href = '../content.html'
         alert("You are logged in")
            return
        }
