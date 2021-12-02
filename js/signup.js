@@ -68,4 +68,6 @@ form.addEventListener('submit', function(e){
   CheckLenght(password, 8, 25);
   CheckEmail(email);
   CheckPasswordsMatch(password, password2);
+  // alert("success registered")
+  window.open("../index.html");
 });
